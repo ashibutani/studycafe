@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>reserve</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.ico">
+	<script src="https://code.jquery.com/jquery-3.6.2.min.js">
+    </script>
+    <script src="js/script.js">
+    </script>
+</head>
+
+<body>
+<!---------------------------------------->
+<!--------ヘッダー------------------------->
+<header>
+    <div class="header_wrapper">
+        <a class="header_top" href="index.html">                        
+            <div class="header_name"><h1>Study Cafe</h1>
+            </div>
+            <div class="logo_top">
+                <img src="images/logo_greenline.png">
+            </div>                          
+        </a>
+
+        
+        <nav class="pc_nav">
+            <ul>
+                <li><a href="detail.html">Detail</a></li> <!--target blankは新規ページ開くやつ -->
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reserve.html">Reserve</a></li>
+                <li><a href="index.html#access">Access</a></li>
+            </ul>
+        </nav>
+        <nav class="sp_nav">           
+            <ul>
+                <li><a href="detail.html" target="_blank">Detail</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="reserve.html" target="_blank">Reserve</a></li>
+                <li><a href="index.html#access">Access</a></li>
+            </ul>
+        </nav>
+        <button class="hm_menu" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>                   
+        </button>
+    
+    </div>
+    
+</header>
+<!---------------------------------------->
+<!--------メイン------------------------->
+<main>
+
+    <div class="reserve_wrapper">
+    <h2>Reserve</h2>
+    <div class="fadeUp">
+    <form>
+    <div class="item">
+        <label class="label">名前：</label> 
+        <input type="text" name="yourname">
+    </div>
+    <div class="item">
+        <label for="label">電話番号：</label> 
+        <input type="text" name="tell">
+    </div>
+    <div class="item">
+        <label for="label">メールアドレス:</label>
+        <input type="email" name="email">
+    </div>
+    <div class="item">
+        <label for="label">予約日：</label> 
+        <input type="date" name="date">
+    </div>
+    <div class="item">
+        <label for="label">予約時間：</label> 
+        <input type="time" name="time">
+    </div>
+    <div class="btn-area">
+        <input type="submit" value="予約する">
+    </div>
+    </form>
+    </div>
+</div>
+</main>
+<!---------------------------------------->
+<!--------フッター------------------------->
+<footer>
+
+</footer>
+</body>
+</html>
